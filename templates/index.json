@@ -1,0 +1,237 @@
+{
+  "sections": {
+    "hero-video": {
+      "type": "hero-video",
+      "custom_css": [
+        "@media screen and (max-width: 500px) {.hero__title {font-size: 19px; }}"
+      ],
+      "settings": {
+        "title": "WE'VE GOT YOUR BACK",
+        "title_size": 51,
+        "subheading": "",
+        "link_text": "SHOP NOW",
+        "link": "https:\/\/karnox.com\/collections\/all-product",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cccb9efaf20047659998fc66b757709a.mp4",
+        "overlay_opacity": 0,
+        "section_height": "100vh",
+        "mobile_height": "250px"
+      }
+    },
+    "3e26a146-0bcb-4baa-8428-a7de665547f6": {
+      "type": "slideshow",
+      "blocks": {
+        "47e16b36-df6e-41fe-800a-8e883b50e37b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "GHOST EDITION",
+            "title_size": 45,
+            "subheading": "ASSASSIN SERIES",
+            "link": "https:\/\/karnox.com\/products\/karnox-gaming-chairs?sku=x66ut66ghost_black",
+            "link_text": "SHOP NOW",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/PC.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/4e4f82daf037f75062fb5f50b252d8af.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "template--17733860294922__3e26a146-0bcb-4baa-8428-a7de665547f6-1677483337bfe93b20-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Celebrating Easter",
+            "title_size": 45,
+            "subheading": "",
+            "link": "https:\/\/karnox-gaming-chair.myshopify.com\/products\/karnox-gaming-chairs?sku=s66nl66black_knignt_black",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/22e2e2eb3131c0da45eab7f8ce35ce35.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/22e2e2eb3131c0da45eab7f8ce35ce35.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "2abcf82a-814e-423a-9dc7-6539345c384c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "BLACK KNIGHT EDITION",
+            "title_size": 45,
+            "subheading": "Legend Series",
+            "link": "https:\/\/karnox.com\/products\/karnox-gaming-chairs?sku=s66nl66black_knignt_black",
+            "link_text": "SHOP NOW",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/bkkkjpg.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/bkkkjpg.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "34c99e12-1751-4561-929c-c5e8c4d3b3f2": {
+          "type": "image",
+          "settings": {
+            "title": "BLACK FRIDAY DEALS",
+            "title_size": 45,
+            "subheading": "UP TO $150",
+            "link": "shopify:\/\/collections\/all-product",
+            "link_text": "SHOP NOW",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/4_b2f3a828-7366-4db6-aa62-1dec725c616a.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "47e16b36-df6e-41fe-800a-8e883b50e37b",
+        "template--17733860294922__3e26a146-0bcb-4baa-8428-a7de665547f6-1677483337bfe93b20-0",
+        "2abcf82a-814e-423a-9dc7-6539345c384c",
+        "34c99e12-1751-4561-929c-c5e8c4d3b3f2"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1920px) {.hero__title {margin-left: -10%; color: #fdea02; } .hero__subtitle {margin-left: 7%; color: #fdea02; } .hero__link {margin-left: 9%; }}",
+        "@media screen and (min-width: 789px) and (max-width: 1919px) {.hero__title {color: #fdea02; font-size: 2.5rem; } .hero__subtitle {margin-left: 14%; color: #fdea02; } .hero__link {margin-left: 16%; }}",
+        "@media screen and (max-width: 788px) {.hero__title {color: #fdea02; font-size: 0.9rem; } .hero__subtitle {margin-left: 14%; color: #fdea02; } .hero__link {margin-left: 16%; }}"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "250px",
+        "parallax": false,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "a87f9067-284b-46f9-9d1b-4170000f6bfc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 45,
+            "subheading": "",
+            "link": "https:\/\/karnox.com\/products\/karnox-gaming-chairs?sku=x66ut66ghost_black",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/2880_1125.png",
+            "image_mobile": "shopify:\/\/shop_images\/2370_1650.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "5b579dc6-a5df-4f39-9aaf-ee304aa608f8": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 45,
+            "subheading": "",
+            "link": "https:\/\/karnox.com\/products\/karnox-gaming-chairs?sku=x66nl66cr_yellow",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/2880_1125_b2d17db2-a98e-4c76-bd79-729376c0da02.png",
+            "image_mobile": "shopify:\/\/shop_images\/2370_1650_abd8c00c-6b10-49fd-ae49-f14d275e4e81.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 45,
+            "subheading": "",
+            "link": "https:\/\/karnox.com\/products\/karnox-gaming-chairs?sku=x66nl66cybot_yellow",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/2880_1125_643aeba9-219c-4ce2-aef7-bf57fb202a7c.png",
+            "image_mobile": "shopify:\/\/shop_images\/2370_1650_aec9a084-fd12-4508-9f51-3822a199a644.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-1",
+        "5b579dc6-a5df-4f39-9aaf-ee304aa608f8",
+        "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-0"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 589px) {.hero__title {font-size: 20px; }}",
+        ".animation-cropper {margin-bottom: 2%;}"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "250px",
+        "parallax": false,
+        "style": "dots",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "a4a7997f-61ba-41c0-b07e-c7cb4b764d02": {
+      "type": "text-columns",
+      "blocks": {
+        "template--17733860294922__a4a7997f-61ba-41c0-b07e-c7cb4b764d02-1677405731bf1c5fbd-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/all-chair.png",
+            "image_mask": "none",
+            "image_width": 490,
+            "title": "CHAIRS",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/all-product"
+          }
+        },
+        "template--17733860294922__a4a7997f-61ba-41c0-b07e-c7cb4b764d02-1677405731bf1c5fbd-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/life.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "LIFE",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/karnox-life"
+          }
+        },
+        "template--17733860294922__a4a7997f-61ba-41c0-b07e-c7cb4b764d02-1677405731bf1c5fbd-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/life2.0.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "technology",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/technology"
+          }
+        }
+      },
+      "block_order": [
+        "template--17733860294922__a4a7997f-61ba-41c0-b07e-c7cb4b764d02-1677405731bf1c5fbd-0",
+        "template--17733860294922__a4a7997f-61ba-41c0-b07e-c7cb4b764d02-1677405731bf1c5fbd-1",
+        "template--17733860294922__a4a7997f-61ba-41c0-b07e-c7cb4b764d02-1677405731bf1c5fbd-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "hero-video",
+    "3e26a146-0bcb-4baa-8428-a7de665547f6",
+    "a87f9067-284b-46f9-9d1b-4170000f6bfc",
+    "a4a7997f-61ba-41c0-b07e-c7cb4b764d02"
+  ]
+}
