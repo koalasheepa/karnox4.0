@@ -65,36 +65,46 @@
             "container_width": 20
           }
         },
-        "footer-1": {
+        "839c2b2f-e585-47c6-81c7-8e930a619c13": {
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "main-menu",
+            "menu": "support",
             "container_width": 20
           }
         },
-        "footer-2": {
+        "a3008615-9911-4afb-a85d-2fef8dd6c581": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "company",
+            "container_width": 20
+          }
+        },
+        "181faad9-bf43-4248-9d32-8caccc8830e0": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "info",
+            "container_width": 20
+          }
+        },
+        "f082cbb1-58d4-4357-be08-5bf64b522c38": {
           "type": "newsletter",
           "settings": {
             "show_footer_title": true,
-            "title": "Sign up and save",
-            "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-            "container_width": 33
-          }
-        },
-        "footer-0": {
-          "type": "logo_social",
-          "settings": {
-            "desktop_logo_height": 50,
-            "container_width": 20
+            "title": "SIGN UP NOW",
+            "richtext": "<p>BE THE FIRST TO KNOW ABOUT OUR NEW ARRIVALS ANDEXCLUSIVE OFFERS.<\/p><p>AFTER-SALES:CONTACT@KARNOX.COM<\/p><p>PRE-SALE:SALES@KARNOX.COM<\/p><p>BUSINESS COOPERATION:<\/p><p>   NEWS@KARNOX.COM<\/p>",
+            "container_width": 25
           }
         }
       },
       "block_order": [
         "footer-3",
-        "footer-1",
-        "footer-2",
-        "footer-0"
+        "839c2b2f-e585-47c6-81c7-8e930a619c13",
+        "a3008615-9911-4afb-a85d-2fef8dd6c581",
+        "181faad9-bf43-4248-9d32-8caccc8830e0",
+        "f082cbb1-58d4-4357-be08-5bf64b522c38"
       ],
       "settings": {
         "show_locale_selector": true,
