@@ -2,23 +2,45 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
-    "a23d6368-5a8d-40a9-9d88-b75607842caa": {
-      "type": "featured-collection",
+    "6cac0b27-cbff-4ac4-aab8-b81f6e4f9951": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21590632366385__6cac0b27-cbff-4ac4-aab8-b81f6e4f9951-image-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/1a23d9c6e9bd9c9dfb0446c19f5f88c4_00d2fb78-512e-43b4-a61f-801503ebe37d.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1_0120.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21590632366385__6cac0b27-cbff-4ac4-aab8-b81f6e4f9951-image-1"
+      ],
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "master-k-lab-living",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     }
   },
   "order": [
     "main",
-    "a23d6368-5a8d-40a9-9d88-b75607842caa"
+    "6cac0b27-cbff-4ac4-aab8-b81f6e4f9951"
   ]
 }
