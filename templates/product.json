@@ -13,11 +13,6 @@
           "settings": {
           }
         },
-        "88b0ba6d-7297-418f-9fbe-48a21d2c03d7": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -25,6 +20,11 @@
             "picker_type": "button",
             "product_dynamic_variants_enable": true,
             "color_swatches": true
+          }
+        },
+        "88b0ba6d-7297-418f-9fbe-48a21d2c03d7": {
+          "type": "quantity_selector",
+          "settings": {
           }
         },
         "sales_point": {
@@ -80,8 +80,8 @@
       "block_order": [
         "price",
         "separator",
-        "88b0ba6d-7297-418f-9fbe-48a21d2c03d7",
         "variant_picker",
+        "88b0ba6d-7297-418f-9fbe-48a21d2c03d7",
         "sales_point",
         "inventory_status",
         "buy_buttons",
