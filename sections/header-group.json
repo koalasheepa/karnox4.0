@@ -12,24 +12,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "e96d9a79-8fe7-4d32-8f78-cb7ac07bf39e": {
-          "type": "megamenu",
-          "settings": {
-            "menu_item": "111",
-            "promo_image_1": "shopify:\/\/shop_images\/1080_1080_bbf34651-d95c-4aa5-b291-d84e2350ae79.png",
-            "promo_heading_1": "",
-            "promo_text_1": "",
-            "promo_url_1": "",
-            "promo_heading_2": "",
-            "promo_text_2": "",
-            "promo_url_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "e96d9a79-8fe7-4d32-8f78-cb7ac07bf39e"
-      ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/logo.png",
         "desktop_logo_width": 130,
