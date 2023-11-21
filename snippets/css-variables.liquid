@@ -11,10 +11,10 @@
     --typeHeaderLineHeight: {{ settings.type_header_line_height | default: 1.4 }};
     --typeHeaderSpacing: {{ settings.type_header_spacing | default: '25' | divided_by: 1000.00 | append: 'em' }};
 
-    --typeBasePrimary:'MyFont';
+    --typeBasePrimary:{{ setting.type_base_font_family.family }};
     --typeBaseFallback:{{ settings.type_base_font_family.fallback_families }};
     --typeBaseSize: {{ settings.type_base_size | default: '16' | append: 'px' }};
-    --typeBaseWeight: normal;
+    --typeBaseWeight: {{ setting.tyoe_base_font_family.weight }};
     --typeBaseLineHeight: {{ settings.type_base_line_height | default: 1.6 }};
     --typeBaseSpacing: {{ settings.type_base_spacing | default: '50' | divided_by: 1000.00 | append: 'em' }};
 
