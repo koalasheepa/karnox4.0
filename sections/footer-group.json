@@ -97,6 +97,14 @@
             "richtext": "<p>BE THE FIRST TO KNOW ABOUT OUR NEW ARRIVALS ANDEXCLUSIVE OFFERS.<\/p><p>AFTER-SALES:CONTACT@KARNOX.COM<\/p><p>PRE-SALE:SALES@KARNOX.COM<\/p><p>BUSINESS COOPERATION:<\/p><p>   NEWS@KARNOX.COM<\/p>",
             "container_width": 25
           }
+        },
+        "e058de26-d152-4bd3-8e69-8295ba8d7e12": {
+          "type": "logo_social",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo.png",
+            "desktop_logo_height": 40,
+            "container_width": 20
+          }
         }
       },
       "block_order": [
@@ -104,7 +112,8 @@
         "839c2b2f-e585-47c6-81c7-8e930a619c13",
         "a3008615-9911-4afb-a85d-2fef8dd6c581",
         "181faad9-bf43-4248-9d32-8caccc8830e0",
-        "f082cbb1-58d4-4357-be08-5bf64b522c38"
+        "f082cbb1-58d4-4357-be08-5bf64b522c38",
+        "e058de26-d152-4bd3-8e69-8295ba8d7e12"
       ],
       "settings": {
         "show_locale_selector": true,
