@@ -58,11 +58,55 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "05f56920-68f6-4a2a-955a-df7fbe84de2a": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ultra-Tara_193c5211-626a-4482-a3ac-bd8f75e95469.jpg",
+        "image_mask": "landscape",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "KARNOX Ultra - Tara",
+        "text": "<p>Co-developed by Karnox, Ultra-Tara is a luxurious alternative to suede. It’s soft, breathable, vegan friendly and more durable than traditional suede. Developed based upon synthetic suede, which recently has become the most popular choice of upholstery found in luxury cars, high-end sports cars and even special edition racers, this material delivers in the pursuit of ultimate sports comfort. <\/p><p>As a professional seat fabric for performance vehicles, it seemed natural to develop this material to offer an ultimate user experience for range of Karnox E-sports gaming chairs. Ultra-Tara not only feels similar to suede but also offers unmatched superiority in multiple areas. The super-soft material surface eases pressures and frictions caused by long-term sitting.. It has a better grip and durability than suede,as well as ultra-breathability, making this type of material always a preferred choice when it comes to e-sports and racing.<\/p><p>KARNOX Ultra-Tara, brings the alive senses and experience of sports driven comfort into the next generation of gaming chairs.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "bda1fd19-589d-4460-b9a9-a87294d7a053": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4c732cc320ffe72d61e9d52237b42572.png",
+        "image_mask": "none",
+        "image2_mask": "landscape",
+        "subtitle": "",
+        "title": "KARNOX LIVORNO Fabric",
+        "text": "<p>Exclusive for Karnox, Livorno Fabric is a remarkable blend of two high-strength fibers meticulously intertwined, resulting in exceptional durability, impressive elasticity, and an unmatched level of softness.<\/p><p>Utilizing state-of-the-art long fiber dyeing technology and mixed yarns within the fabric， means we have a multi-layered 3D finish, providing depth in textures, tones and shades. While delivering an elegant finish and a luxurious feel, practicality is also considered. With its superior tensile strength, surpassing comparable single yarn seat fabrics by 3-4 times, it ensures longevity for many years of use. , Excellent seam strength and colour UV resistance guarantee that your chair will maintains good look  throughout its lifetime.  <\/p><p>The fabric's inherent breathability allows air to breathe through the weave to ensure that heat is dissipated and issues such as sweat in warm conditions are reduced, keeping the user comfortable. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "6cac0b27-cbff-4ac4-aab8-b81f6e4f9951",
-    "99c39f45-2267-4320-ae69-216c3747d3ab"
+    "99c39f45-2267-4320-ae69-216c3747d3ab",
+    "05f56920-68f6-4a2a-955a-df7fbe84de2a",
+    "bda1fd19-589d-4460-b9a9-a87294d7a053"
   ]
 }
