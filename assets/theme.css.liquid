@@ -54,7 +54,7 @@
 
   --colorModalBg:{{ settings.color_modal_overlays | default: "#000000" }};
 
-  --colorNav:{{ settings.color_header | default: "#ffffff" }};
+  --colorNav:{{ settings.color_header | default: "#ffffff" | color_modify:"alpha",0.67 }};
   --colorNavText:{{ settings.color_header_text | default: "#000000" }};
 
   --colorSalePrice:{{ settings.color_sale_price | default: "#1c1d1d" }};
