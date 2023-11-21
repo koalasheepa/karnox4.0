@@ -5,9 +5,19 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "7d48e178-5083-4f0a-ab99-e95325a2af2d": {
+      "type": "bulk-orders",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7d48e178-5083-4f0a-ab99-e95325a2af2d"
   ]
 }
