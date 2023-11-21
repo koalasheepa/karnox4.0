@@ -13,4 +13,12 @@
   {{ base_font_bold | font_face: font_display: 'swap' }}
   {{ base_font_italic | font_face: font_display: 'swap' }}
   {{ base_font_bold_italic | font_face: font_display: 'swap' }}
+
+  /* 引入自定义字体 */
+@font-face {
+  font-family: 'Pirelen Rg';
+  src:url('{{ "PIRULEN_RG.TTF" | file_url }}') format("TTF");
+  font-weight: normal;
+  font-style:normal;
+}
 {%- endstyle -%}
