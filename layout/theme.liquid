@@ -97,6 +97,8 @@
   {% endif %}
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+  {% comment %} 添加返回到顶部导航 {% endcomment %}
+  {% render 'back-to-top' %}
 
   <div id="PageContainer" class="page-container">
     <div class="transition-body">
@@ -113,8 +115,7 @@
     </div>
   </div>
 
-  {% comment %} 添加返回到顶部导航 {% endcomment %}
-  {% render 'back-to-top' %}
+
   {%- liquid
     render 'video-modal'
     render 'photoswipe-template'
@@ -128,6 +129,7 @@
     </image-element>
   </template>
 
+  
   
 </body>
 </html>
