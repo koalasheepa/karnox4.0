@@ -12,30 +12,93 @@
         "faq-0": {
           "type": "rich-text",
           "settings": {
-            "title": "Shipping",
-            "text": ""
+            "title": "Read Before You Buy",
+            "text": "",
+            "align_text": "left"
           }
         },
         "faq-1": {
           "type": "question",
           "settings": {
+            "title": " 1. Why choose Karnox?",
+            "text": "<p>Karnox brand was born in 2010. It was jointly founded by Karnox company and top British luxury car engineers. The brand vision is to combine cutting edge automotive design with world-class manufacturing, to produce more professional electric racing chairs and office seats that improve the performance and quality of seats, and bring higher seat enjoyment for users. Karnox products deliver on style, comfort and build quality to enhance the sitting experience. The goal is to get you comfortable and keep you healthy while you do what you do.<\/p>"
           }
         },
         "faq-2": {
           "type": "question",
           "settings": {
+            "title": "2. What countries does Karnox operate in?",
+            "text": "<p>Karnox is available in many countries worldwide. In order to bring convenience for our buyer, you can purchase our product through the following market places.<\/p>"
           }
         },
-        "faq-3": {
-          "type": "rich-text",
+        "3d476528-f3d0-4f50-a847-9599f75ef50b": {
+          "type": "question",
           "settings": {
-            "title": "Returns",
-            "text": ""
+            "title": "3. What's the difference between each product?",
+            "text": "<p>To provide every customer with the best Karnox gaming chair, distinctive models are engineered to fit different builds. Our sizing table can help you select the model fits you best, based on your height and weight.<\/p><p>●HEROThe Karnox Hero is the classic racing style seat. It features a slightly narrower seat, shorter back and hugging side braces to keep you comfy and padded while gaming. Its relatively compact design is a good fit for those who prefer a snugger sitting experience, with an adjustable lumbar pillow and neck pillow included, this chair will keep user-supported for extensive periods of time.<\/p><p>●LEGENDThe Karnox LEGEND features a wide seat, tall back, side lumbar supports and a padded headrest giving you the comfort and endurance you need for long hours sitting. With an adjustable lumbar pillow and neck pillow included, finding comfort is down with ease. Additionally, it comes with a multi-functional tilt mechanism which enables the chair to effortlessly adapt to user’s sitting preferences. The seat base can tilt back when you lean into the chair, and you can then lock it at your desired angle of tilt.<\/p><p>●GLADIATORThe Karnox GLADIATOR is a gaming chair with the luxurious qualities of prestigious car. It’s big, broad and beastly, and includes an all-new head restraint cushion for that added comfort. Featuring roller-blade smooth glide wheels, cast alloy base, 4D chunky armrests, enhances gas lift assist and complete height, tilt and spin controlled base. A seat for the person serious about comfort.<\/p><p>●DEFENDERThe Karnox DEFENDER has a flat and wide seat back, it’s padded surrounds and high headrest will ensure you sit encased in comfort. It is built for larger folks, featuring a taller backrest and a wider and deeper seat base. This chair is for those who prefer the soft touch and breathability of our high quality fabric.<\/p><p>●COMMANDERUnique to our range, the COMMANDER features a solid style seatback. The COMMANDER is defined and elegant. It features a wide seat, tall back, side lumbar supports and a padded headrest giving you the comfort and endurance you need for long hours sitting. Equipped with position and backrest angle adjustable seats, which allows you to adjust the lumbar support by simply turning the knob on the right of the backrest.All Karnox chairs come with large and sturdy PU caster wheels, which are designed to glide smoothly over most surfaces without damaging them.<\/p>"
           }
         },
         "faq-4": {
           "type": "question",
           "settings": {
+            "title": "4. How do I decide what chair would be best for me?",
+            "text": "<p>Karnox provide a wide range of products that feature a wide range of adjustments. To get an idea of the best fit for you, check out our Sizing Table. Also, you can refer to the specification sheet for each chair for more detailed dimensions.<\/p>"
+          }
+        },
+        "8e06d59b-b212-49be-9219-1a3f969847dd": {
+          "type": "question",
+          "settings": {
+            "title": "5. Is the Pillow Set included on ALL models?",
+            "text": "<p>Yes, all models of Karnox gaming chair will include the pillow set.<\/p>"
+          }
+        },
+        "da2477c3-4954-481b-94a5-ba14b9150b43": {
+          "type": "question",
+          "settings": {
+            "title": "6. Do you offer co-branded chairs?",
+            "text": "<p>Karnox always look for opportunities to find good co-production partner, please send email to news@karnox.com for business cooperation.<\/p>"
+          }
+        },
+        "69a389e3-1597-4efc-88d2-ac55956adf67": {
+          "type": "question",
+          "settings": {
+            "title": "7. Can you create co-branded or custom-made parts for me?",
+            "text": "<p>Unfortunately, we do not offer any custom-made products (single pieces). This is currently only reserved for our exclusive partners. We thank you for your understanding.<\/p>"
+          }
+        },
+        "823f50f4-477f-4cef-8279-1ce8f8f4162e": {
+          "type": "question",
+          "settings": {
+            "title": "8. Which materials are used in chairs from Karnox?",
+            "text": "<p>Karnox gaming chairs offer PU leather and fabric options. Both of them offers a great sitting experience, but their different looks and feels make them suited to different use case.Karnox 2.0 PU leather has glossiness, plumpness and surface planeness. Also, it is water-resistant, so long as gently cleans, then maintains cleanly.If you frequently perspire while sitting, you might prefer the Livorno Fabric. The unique soft texture combines two-tone fiber sand technology and long fiber dyeing technology, which makes Livorno is elegant in texture and soft to the touch. Meanwhile, it’s also highly breathable to reduce the build-up of heat.Karnox’s high quality castors are made of Nylon and Polyurethane that offer exceptional movement on both soft and hard floors, especially the COMMANDER and GLADIATOR’s castors are made from full PU leather offers more stability. Also, the Polyurethane 4D adjustable armrests offer a wide range of movement allowing for you to be comfortable in any position.<\/p>"
+          }
+        },
+        "286e4128-d68c-449f-beee-155dcdb8fda4": {
+          "type": "question",
+          "settings": {
+            "title": "9. Why can’t find my desired model on the Karnox online store?",
+            "text": "<p>If you can’t find the specific model on our online store, it’s no longer in production and no more stock is available.<\/p>"
+          }
+        },
+        "e738b215-76bb-449e-8e4e-8e7f57468c45": {
+          "type": "question",
+          "settings": {
+            "title": "10. Are new products being released?",
+            "text": "<p>Karnox Product Development team is striving for developing superb performance and further products. Please follow our official social media, we’ll release the latest product information there.Instagram: https:\/\/www.instagram.com\/karnox_official\/Facebook: https:\/\/www.facebook.com\/karnoxofficialYouTube: https:\/\/www.youtube.com\/channel\/UC6oqy8pQtWtnns2mSAL0r1QTwitter: https:\/\/twitter.com\/karnoxchair<\/p>"
+          }
+        },
+        "23869bea-6763-403b-87e5-7f710f949c8f": {
+          "type": "question",
+          "settings": {
+            "title": "11. Is there a way to order a chair that is currently out of stock?",
+            "text": "<p>We‘ll update the in-stock information on the website after the replenishment of inventory, please stay tuned for stock update on the website.<\/p>"
+          }
+        },
+        "51e7eee7-b08f-4211-bdc7-41afcd271431": {
+          "type": "question",
+          "settings": {
+            "title": "12. Are the wheels (castors) suitable for soft or hard floors?",
+            "text": "<p>Our castors are suitable for both soft and hard floors. They can be moved easily on both carpet and hard floors. However, the damage to hard floors is not primarily caused by the caster themselves but dust grains adhere to the casters changing the characteristics to a “grainy“ feeling. This causes the surface of the castors to become rough and when rubbed against laminate, wood, or similar flooring can cause damage. To prevent damage to hard floors, we recommend a protective mat. Thanks to the roll characteristics of our castors, a plastic or fabric option is viable to protect your floor.<\/p>"
           }
         }
       },
@@ -43,8 +106,16 @@
         "faq-0",
         "faq-1",
         "faq-2",
-        "faq-3",
-        "faq-4"
+        "3d476528-f3d0-4f50-a847-9599f75ef50b",
+        "faq-4",
+        "8e06d59b-b212-49be-9219-1a3f969847dd",
+        "da2477c3-4954-481b-94a5-ba14b9150b43",
+        "69a389e3-1597-4efc-88d2-ac55956adf67",
+        "823f50f4-477f-4cef-8279-1ce8f8f4162e",
+        "286e4128-d68c-449f-beee-155dcdb8fda4",
+        "e738b215-76bb-449e-8e4e-8e7f57468c45",
+        "23869bea-6763-403b-87e5-7f710f949c8f",
+        "51e7eee7-b08f-4211-bdc7-41afcd271431"
       ],
       "settings": {
         "title": ""
