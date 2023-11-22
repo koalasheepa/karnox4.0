@@ -7,7 +7,7 @@
 {% endcomment %}
 <!-- {% assign position_from_bottom = '2.2em' %} -->
 <a href="#" title="Back to the top" class="back-to-top">
-  <i class="fa fa-angle-double-up fa-2x"></i>
+  <i class="fa fa-angle-double-up fa-2x"></i>TOP
   <!-- <p class="fa-top">top</p> -->
 </a>
 {{ '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' | stylesheet_tag }}
@@ -23,7 +23,7 @@
     }
     }
     .back-to-top {
-    position: fixed;
+    /* position: fixed;
     right: 1.5rem;
     text-decoration: none;
     color: #fdea02;
@@ -35,7 +35,25 @@
     -moz-border-radius-topleft: 3px;
     -moz-border-radius-bottomleft: 3px;
     border-radius: 3px;
-    z-index: 90000;
+    z-index: 60000;
+       /* 隐藏按钮 */
+
+      /* display:flex;
+      flex-direction: column; */
+      display: none;
+      position: fixed; /* 定位方式 */
+      bottom: 120px; /* 距离底部的距离 */
+      right: 20px; /* 距离右边的距离 */
+      z-index: 99; /* 确保按钮在其他元素前面 */
+      font-size: 20px; /* 字体大小 */
+      color: #fff; /* 字体颜色 */
+      cursor: pointer; /* 鼠标悬停样式 */
+      background-color: #000; /* 背景颜色 */
+      width: 50px; /* 按钮宽度 */
+      height: 50px; /* 按钮高度 */
+      line-height: 45px; /* 文字行高，使文字垂直居中 */
+      text-align: center; /* 文字居中 */
+      border-radius: 50%; /* 圆形按钮 */
   }
   .back-to-top:hover {
   background-color: #fff; /* 按钮悬停时的背景颜色 */
