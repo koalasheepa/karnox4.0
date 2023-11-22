@@ -12,7 +12,15 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "link_text": ""
+            "title": "since 2010",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/5.26.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
@@ -20,6 +28,13 @@
         "slideshow-0"
       ],
       "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
       }
     },
     "rich-text": {
@@ -28,11 +43,14 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "title": "our story"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "enlarge_text": false,
+            "text": "<p>The KARNOX brand was conceived in 2010; a joint vision shared between an UK luxury car engineer and KARNOX LIMITED. The vision was to combine cutting edge automotive design with world class manufacturing to create eSports chairs and accessories that improve gaming performance and endurance. Inspired by performance sports cars, designed for eSports, KARNOX products deliver on style, comfort and build quality to enhance the gaming experience. KARNOX chairs are carefully designed by award winning designers.<\/p><p>We use only top quality materials to keep you seated for long consecutive hours while remaining comfortable and healthy.<\/p><p>Every chair has been rigorously tested to ensure the ultimate experience for you. Don’t wait any longer, become a part of the elite group of people who decided to invest in their own comfort.<\/p><p>Whether you are a professional, a gamer or simply someone who enjoys quality, we have a chair for you.<\/p>"
           }
         }
       },
@@ -41,48 +59,51 @@
         "text"
       ],
       "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
       }
     },
-    "map": {
-      "type": "map",
+    "005f38fd-997c-4ac8-927a-91f8f988e38d": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/20230525165707.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Don't wait any longer, become a part of the elite group of people who decided to invest in their own comfort. Whether you are a professional, a gamer or simply someone who enjoys quality, we have a chair for you.<br\/><strong>2010 was the year it all started<\/strong> . This was the year Karnox was launched. The brand unites designers in the UK and experienced automotive seat manufacturers which have worked with multiple high end brands. The vision was to combine cut ting edge automotive design with world class manufacturingto create e-sports chairs and accessories that improve gaming performance and endurance. <strong>Karnox products deliver on style, comfort and build quality to enhance the gaming experience.<\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+    "d18ae1fb-f7aa-4971-a930-35f51b17ae82": {
+      "type": "text-and-image",
       "settings": {
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
+        "image": "shopify:\/\/shop_images\/4_1784bb30-3dff-41c7-8803-6ee5296bb498.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "KARNOX - WE'VE GOT YOUR BACK",
+        "text": "<p>The most important thing you have to know about Karnox is that we have a factory and that we manufacture our own chairs. No OEM, no rebranding, 100% us. This means we can insure top quality control and you get our product at the low est price. We have been manufacturing gaming, office and even actual car chairs for well-known brands for years before launching our own Karnox brand in 2010.<br\/><strong>In May 2018<\/strong>, we brought our first Karnox chairs to the North<br\/>American market. Our chairs are carefully designed by award winning designers. We use only top-quality materials to keep you seated for long consecutive hours while remaining comfortable and healthy. Every chair has been rigorously tested toensure the ultimate experience for you.<br\/><strong>KARNOX IS DESIGNED FOR THE BOARDROOM AND THE WAR ROOM.CHAIRS FOR THE HOME AND OFFICE.<\/strong>Our goal? To get you comfortable and keep you healthy while you do what you do.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     }
   },
@@ -90,9 +111,7 @@
     "main",
     "slideshow",
     "rich-text",
-    "text-columns",
-    "map",
-    "featured-collection",
-    "form"
+    "005f38fd-997c-4ac8-927a-91f8f988e38d",
+    "d18ae1fb-f7aa-4971-a930-35f51b17ae82"
   ]
 }
