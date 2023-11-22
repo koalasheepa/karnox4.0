@@ -19,6 +19,7 @@
     {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script> {% endcomment %}
     <script src="{{'swiper.jquery.min.js' | asset_url }}" async></script>
     <script src="{{'jquery3.7.0.js' | asset_url }}" async></script>
+    
   {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {%- endif -%}
