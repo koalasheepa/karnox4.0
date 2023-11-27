@@ -88,10 +88,34 @@
         "title": "",
         "image": "shopify:\/\/shop_images\/0939dec5a7c0f6ccd560f55958fcc4f1.jpg"
       }
+    },
+    "3dc24546-f46f-4336-ab0c-876ad6f3009d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "karnox life  - style",
+        "home_featured_products": "living-type",
+        "per_row": 4,
+        "rows": 5,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "57f31594-b764-48e4-9fdd-a4b6000886f5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "karnox gaming - style",
+        "home_featured_products": "gaming-type",
+        "per_row": 4,
+        "rows": 5,
+        "view_all": false,
+        "divider": true
+      }
     }
   },
   "order": [
     "main",
-    "55b54bc4-136a-4680-9c5c-31e6bc0b0c4f"
+    "55b54bc4-136a-4680-9c5c-31e6bc0b0c4f",
+    "3dc24546-f46f-4336-ab0c-876ad6f3009d",
+    "57f31594-b764-48e4-9fdd-a4b6000886f5"
   ]
 }

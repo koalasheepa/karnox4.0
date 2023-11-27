@@ -46,6 +46,7 @@
     "animate_buttons": true,
     "animate_underlines": true,
     "vendor_enable": true,
+    "product_save_type": "dollar",
     "product_grid_image_size": "natural",
     "product_hover_image": true,
     "quick_shop_enable": false,
