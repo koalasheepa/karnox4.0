@@ -1,0 +1,34 @@
+{%- comment -%}
+入参：
+    type: ajax 通过ajax方式加载 / component 通过组件方式加载
+    productHandle: 商品handle
+    product: 商品数据
+    top:  偏移box, top 位置百分比
+    left: 偏移box, left位置百分比
+{%- endcomment -%}
+
+{%- capture shoppable_product -%}
+<div class="data-wapper">
+    <div class="view__image">
+        <a class="grid-view-item__link grid-view-item__image" href="{{ product.url | within: collection }}">
+            <img src="{{ product.featured_image | img_url: '180x' }}" alt="">
+        </a>
+    </div>
+    <div class="view__detail">
+        <a href="{{ product.url | within: collection }}" class="detail__title">{{ product.title }}</a>
+        <div class="detail__meta">
+            {{ product.price | money_with_currency }}
+        </div>
+        <a class="btn-options" href="{{ product.url | within: collection }}">SHOP NOW</a>
+    </div>
+</div>
+{%- endcapture -%}
+
+{%- if type == 'component' -%}
+<div class="product-data" data-handle="{{ productHandle }}" style="position:absolute; left: {{ left }}%; top: {{ top }}%" >
+    <div class="product-data__pointer"></div>
+    <div class="product-data__card"></div>
+</div>
+{%- else -%}
+{{ shoppable_product }}
+{%- endif -%}
