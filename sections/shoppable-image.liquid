@@ -1,0 +1,214 @@
+{%- capture hotspot_products -%}
+{%- for block in section.blocks -%}
+    {%- if block.settings.product != blank -%}
+    {%- render 'shoppable-image-product',
+      type: 'component',
+      productHandle: block.settings.product,
+      top: block.settings.top,
+      left: block.settings.left
+    -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+
+
+{%- capture shoppable_id -%}shoppable-{{ section.id }}{%- endcapture -%}
+
+
+<div class="shoppable-container" id="{{ shoppable_id }}">
+    {%- if section.settings.title != blank -%}
+    <div class="shoppable-head">
+        {{ section.settings.title }}
+    </div>
+    {%- endif -%}
+    <div class="shoppable-body">
+      <div class="shoppable-body__image">
+        <img src="{{ section.settings.image | img_url: 'master' }}" width="" height="" loading="lazy"/>
+      </div>
+      <div class="shoppable-body__products">
+        {{ hotspot_products }}
+      </div>
+    </div>
+</div>
+
+
+<style>
+  #{{ shoppable_id }} .shoppable-head {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #{{ shoppable_id }} .shoppable-body{
+    position: relative;
+  }
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__image {
+    width: 100%;
+  }
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__image img {
+    width: 100%;
+  }
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__products {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__products .product-data {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #0006;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: none;
+    transition: background-color .15s cubic-bezier(.4,0,.2,1),box-shadow .15s cubic-bezier(.4,0,.2,1);
+  }
+
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__products .product-data:hover {
+    z-index: 299;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px #fff inset, 0 1px 4px #00000026;
+  }
+
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__products .product-data .product-data__card{
+    display: none;
+  }
+
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__products .product-data:hover .product-data__card {
+    display: block;
+    width: 200px;
+    background: #161616;
+    font-size: 12px;
+    position: absolute;
+    transform: translate( -50% ,30px);
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  }
+
+  #{{ shoppable_id }} .shoppable-body .shoppable-body__products .product-data__pointer {
+    position: absolute;
+    display: block;
+    bottom: 50%;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform .15s cubic-bezier(.4,0,.2,1);
+    transform: translate(-50%,50%);
+}
+
+#{{ shoppable_id }} .view__detail {
+  text-align: center;
+  padding: 0 0 20px;
+}
+#{{ shoppable_id }} .view__image {
+  display: flex;
+  justify-content: center;
+}
+#{{ shoppable_id }} .view__detail .detail__title {
+  color: #fff;
+  text-decoration: none;
+}
+#{{ shoppable_id }} .view__detail .btn-options {
+  background: #000;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+</style>
+
+<script>
+  var selector = '#{{ shoppable_id }} .product-data';
+
+  function loadProduct(el) {
+    if ($(el).hasClass('data-loaded')) {
+      return;
+    }
+    var handle = $(el).attr('data-handle');
+    fetch(`/products/${handle}?section_id=shoppable-ajax-product`)
+      .then(function(response) {
+      return response.text();
+    }).then(function(html) {
+      var nodeHtml = $(html).find('.data-wapper').html();
+      $(el).find('.product-data__card').html(nodeHtml);
+      $(el).addClass('data-loaded');
+    });
+  }
+
+  $(selector).on('hover', function() {
+    loadProduct(this);
+  });
+
+  $(document).ready(function() {
+    $(selector).each(function(_, node) {
+      loadProduct(node);
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Shoppable image",
+  "class": "shoppable-image--section",
+  "max_blocks": 20,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "标题"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "图片"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "hotspot",
+      "name": "配置商品",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "图片距box顶部偏移位置",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "left",
+          "label": "图片距离box左侧偏移位置",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 50
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shoppable image",
+      "category": "Image"
+    }
+  ]
+}
+
+{% endschema %}
