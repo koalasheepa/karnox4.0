@@ -21,6 +21,7 @@
         "collection_description",
         "product_grid"
       ],
+      "disabled": true,
       "settings": {
         "collection_image_enable": true,
         "collection_image_height": 450,
@@ -31,9 +32,16 @@
         "enable_color_swatches": true,
         "enable_sort": false
       }
+    },
+    "854d6735-75c4-49b8-b2d7-ea3ec76186a2": {
+      "type": "collection-new",
+      "settings": {
+        "page": ""
+      }
     }
   },
   "order": [
-    "main-collection"
+    "main-collection",
+    "854d6735-75c4-49b8-b2d7-ea3ec76186a2"
   ]
 }
