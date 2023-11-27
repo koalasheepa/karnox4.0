@@ -5,9 +5,93 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "55b54bc4-136a-4680-9c5c-31e6bc0b0c4f": {
+      "type": "shoppable-image",
+      "blocks": {
+        "258d4483-56d2-4f75-bb94-3333dc61c352": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-gaming-keyboard",
+            "top": 61,
+            "left": 7
+          }
+        },
+        "8279ddb6-505b-476a-8ddd-73ccb796f36f": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-gaming-chairs",
+            "top": 56,
+            "left": 58
+          }
+        },
+        "1a404328-72e4-4f71-bf9c-2bc4d7542a15": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-hoodies",
+            "top": 50,
+            "left": 33
+          }
+        },
+        "f6fb3370-740c-4488-b77d-5dbf8fbac728": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-gaming-keyboard-mouse-pad",
+            "top": 68,
+            "left": 80
+          }
+        },
+        "39e94a13-ab53-420f-ae6d-cea2003dc993": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-knapsack",
+            "top": 79,
+            "left": 77
+          }
+        },
+        "549f56cb-bceb-43e6-866b-71e20f7667ae": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-umbrella",
+            "top": 80,
+            "left": 18
+          }
+        },
+        "839808e0-af9a-4c5c-b6ea-645a8514c40a": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-carpet",
+            "top": 87,
+            "left": 49
+          }
+        },
+        "7fd1a651-39ae-4857-bf95-ed61977a037c": {
+          "type": "hotspot",
+          "settings": {
+            "product": "karnox-gaming-keyboard-mouse-pad-1",
+            "top": 61,
+            "left": 44
+          }
+        }
+      },
+      "block_order": [
+        "258d4483-56d2-4f75-bb94-3333dc61c352",
+        "8279ddb6-505b-476a-8ddd-73ccb796f36f",
+        "1a404328-72e4-4f71-bf9c-2bc4d7542a15",
+        "f6fb3370-740c-4488-b77d-5dbf8fbac728",
+        "39e94a13-ab53-420f-ae6d-cea2003dc993",
+        "549f56cb-bceb-43e6-866b-71e20f7667ae",
+        "839808e0-af9a-4c5c-b6ea-645a8514c40a",
+        "7fd1a651-39ae-4857-bf95-ed61977a037c"
+      ],
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/0939dec5a7c0f6ccd560f55958fcc4f1.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "55b54bc4-136a-4680-9c5c-31e6bc0b0c4f"
   ]
 }
