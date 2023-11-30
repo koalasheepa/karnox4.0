@@ -110,6 +110,7 @@
       "blocks": {
         "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 45,
@@ -125,6 +126,7 @@
         },
         "5b579dc6-a5df-4f39-9aaf-ee304aa608f8": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 45,
@@ -140,6 +142,7 @@
         },
         "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 45,
@@ -152,12 +155,27 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "201f4f37-8504-4cc5-9abe-6899014025c5": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 51,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/20231130113001.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-1",
         "5b579dc6-a5df-4f39-9aaf-ee304aa608f8",
-        "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-0"
+        "template--18544516170033__a87f9067-284b-46f9-9d1b-4170000f6bfc-16824938053f614deb-0",
+        "201f4f37-8504-4cc5-9abe-6899014025c5"
       ],
       "custom_css": [
         "@media screen and (max-width: 589px) {.hero__title {font-size: 20px; }}",
