@@ -77,7 +77,7 @@
             "subheading": "UP TO $150",
             "link": "shopify:\/\/collections\/all-product",
             "link_text": "SHOP NOW",
-            "text_align": "vertical-center horizontal-left",
+            "text_align": "vertical-bottom horizontal-center",
             "image": "shopify:\/\/shop_images\/Black_Friday_2880x1440_7e84b6aa-87f1-4eec-b0ae-a6f7f24f4f26.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
@@ -90,10 +90,9 @@
         "2abcf82a-814e-423a-9dc7-6539345c384c",
         "34c99e12-1751-4561-929c-c5e8c4d3b3f2"
       ],
+      "disabled": true,
       "custom_css": [
-        "@media screen and (min-width: 1920px) {.hero__title {margin-left: -10%; color: #fdea02; } .hero__subtitle {margin-left: 7%; color: #fdea02; } .hero__link {margin-left: 9%; }}",
-        "@media screen and (min-width: 789px) and (max-width: 1919px) {.hero__title {color: #fdea02; font-size: 2.5rem; } .hero__subtitle {margin-left: 14%; color: #fdea02; } .hero__link {margin-left: 16%; }}",
-        "@media screen and (max-width: 788px) {.hero__title {color: #fdea02; font-size: 0.9rem; } .hero__subtitle {margin-left: 14%; color: #fdea02; } .hero__link {margin-left: 16%; }}"
+
       ],
       "settings": {
         "section_height": "natural",
@@ -101,6 +100,36 @@
         "parallax": false,
         "style": "minimal",
         "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "0ce81d3d-9370-40dd-b127-37e0b8ccd8e3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21590632038705__0ce81d3d-9370-40dd-b127-37e0b8ccd8e3-image-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Optional button",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21590632038705__0ce81d3d-9370-40dd-b127-37e0b8ccd8e3-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
         "autoplay_speed": 5,
         "lazyload_images": true
       }
@@ -248,6 +277,7 @@
   "order": [
     "hero-video",
     "3e26a146-0bcb-4baa-8428-a7de665547f6",
+    "0ce81d3d-9370-40dd-b127-37e0b8ccd8e3",
     "a87f9067-284b-46f9-9d1b-4170000f6bfc",
     "a4a7997f-61ba-41c0-b07e-c7cb4b764d02"
   ]
