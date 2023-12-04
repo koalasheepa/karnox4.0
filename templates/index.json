@@ -178,8 +178,7 @@
         "201f4f37-8504-4cc5-9abe-6899014025c5"
       ],
       "custom_css": [
-        "@media screen and (max-width: 589px) {.hero__title {font-size: 20px; }}",
-        ".animation-cropper {margin-bottom: 2%;}"
+
       ],
       "settings": {
         "section_height": "natural",
