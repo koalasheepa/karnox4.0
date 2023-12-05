@@ -17,16 +17,16 @@
     <div class="view__detail">
         <a href="{{ product.url | within: collection }}" class="detail__title">{{ product.title }}</a>
         <div class="detail__meta">
-            {{ product.price | money_with_currency }}
+            {{ product.price | money_with_currency }} 
         </div>
         <a class="btn-options" href="{{ product.url | within: collection }}">SHOP NOW</a>
     </div>
 </div>
 {%- endcapture -%}
 
-{%- if type == 'component' -%}
+{%- if type == 'component' -%} 
 <div class="product-data" data-handle="{{ productHandle }}" style="position:absolute; left: {{ left }}%; top: {{ top }}%" >
-    <div class="product-data__pointer"></div>
+    <div class="product-data__pointer"></div>?
     <div class="product-data__card"></div>
 </div>
 {%- else -%}
