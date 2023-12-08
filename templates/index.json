@@ -114,21 +114,39 @@
             "title_size": 80,
             "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/1_ca97dc47-193b-4f58-92fb-0cb7504044c0.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1_2656a469-2870-4dcf-8304-58311bd0d0b5.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "372a1e31-b587-478a-a112-797c4381c384": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/2_22a0a170-3997-4bc4-8b0b-4b377186f91e.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/2_9b914b8c-fe7f-4b09-975d-a304f3f561ea.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "template--21590632038705__0ce81d3d-9370-40dd-b127-37e0b8ccd8e3-image-1"
+        "template--21590632038705__0ce81d3d-9370-40dd-b127-37e0b8ccd8e3-image-1",
+        "372a1e31-b587-478a-a112-797c4381c384"
       ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "style": "arrows",
+        "style": "dots",
         "autoplay": true,
         "autoplay_speed": 5,
         "lazyload_images": true
