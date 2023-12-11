@@ -1,9 +1,7 @@
 
 $(function(){
 
-
     $('.ss_nl').css('display','inline-block')
-
 
     if(getQueryString('sku') != '' && getQueryString('sku') !=undefined){
 
@@ -33,20 +31,15 @@ $(function(){
     
     }else{
     $('.pro_block_sec .blo_li:first-child').trigger("click")
-
     }
-
-
 
 })
 
 function isShowTitle(){
 
 
-
         for(var i=0;i<$('.HERO').length ;i++){
         let dis = $('.HERO').eq(i).css('display')
-
 
         if(dis == 'inline-block'){
     $('.HERO').eq(0).prev().show()
