@@ -110,12 +110,24 @@
         "view_all": false,
         "divider": true
       }
+    },
+    "bf68f71c-4dbc-4219-9430-420a6c279d10": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "master-k-lab-living",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "55b54bc4-136a-4680-9c5c-31e6bc0b0c4f",
     "3dc24546-f46f-4336-ab0c-876ad6f3009d",
-    "57f31594-b764-48e4-9fdd-a4b6000886f5"
+    "57f31594-b764-48e4-9fdd-a4b6000886f5",
+    "bf68f71c-4dbc-4219-9430-420a6c279d10"
   ]
 }
