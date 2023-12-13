@@ -94,9 +94,9 @@
         "product_zoom_enable": true,
         "thumbnail_position": "beside",
         "thumbnail_height": "fixed",
-        "thumbnail_arrows": true,
+        "thumbnail_arrows": false,
         "enable_video_looping": true,
-        "product_video_style": "unmuted"
+        "product_video_style": "muted"
       }
     },
     "sub": {
