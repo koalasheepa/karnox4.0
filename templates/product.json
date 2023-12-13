@@ -82,6 +82,12 @@
         "contact",
         "share"
       ],
+      "custom_css": [
+        ".pacKaged {display: none;}",
+        ".item-gifts {display: none;}",
+        ".pro_block .pro_block_first {display: none;}",
+        ".pro_block .pro_block_sec {display:none}"
+      ],
       "settings": {
         "sku_enable": false,
         "image_size": "small",
