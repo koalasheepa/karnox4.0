@@ -74,8 +74,8 @@ background: linear-gradient(to bottom,#fff100 -150%,#000 100%,#fff 150%);
 
 <script>
   var mySwiper = new Swiper('#{{ swiperId }}', {
-      direction: "{{  section.settings.direction }}", // 水平切换选项
-      loop: {{  section.settings.loop }}, // 循环模式选项
+      direction: "{{ section.settings.direction }}", // 水平切换选项
+      loop: {{ section.settings.loop }}, // 循环模式选项
       autoplayDisableOnInteraction : false,
       autoplay: {{ section.settings.autoplay }} * 1000,
       height: {{ section.settings.height }}
