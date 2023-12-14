@@ -14,14 +14,15 @@
   <link rel="dns-prefetch" href="https://maps.gstatic.com">
 
   <!-- 滚动顶饰条css+js -->
-    <link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'swiper.min3.4.2.css' | asset_url }}">
     {% comment %} 错误引入 {% endcomment %}
     {% comment %} <script src="https://code.jquery.com/jquery-3.7.0.js"></script> {% endcomment %}
     {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script> {% endcomment %}
 
     {% comment %} 正确引入 {% endcomment %}
-    <script src="{{'swiper.jquery.min.js' | asset_url }}" async></script>
-    <script src="{{'jquery3.7.0.js' | asset_url }}" async></script>
+    <script src="{{ 'swiper.jquery.min.js' | asset_url }}" async></script>
+    {% comment %} <script src="{{ 'jquery3.7.0.js' | asset_url }}" async></script> {% endcomment %}
+    <script src="{{ 'swiper.jquery.min3.4.2.js' | asset_url }}" async></script>
 
   {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
