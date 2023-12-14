@@ -13,19 +13,45 @@
 {%- endcapture -%}
 <style>
   .announcement-bar.swiper-slide {
+    text-align: center;
+    padding: 13px 0;
+    border: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    border: 0;
+  }
+.swiper-container-vertical {
+/*  线性渐变——由上到下 调百分比 */
+/*   background: linear-gradient(to bottom left,rgb(255,244,148),rgba(255,0,0,0) 50%); */
+/* 由下往上 */
+/*    background: linear-gradient(to bottom, rgb(255,251,0)); */
+/* background: linear-gradient(to bottom,#fff 0%,#fdea02 30%,#000 300%); */
+background: linear-gradient(to bottom,#fff100 -150%,#000 100%,#fff 150%);
+/* background: linear-gradient(to bottom,#fff -150%,#000 10%,#fff100 200%); */
+}
+  @media screen and (max-width:600px) {
+    #{{ swiperId }} .announcement-bar__message {
+    font-size:1.15rem;
+    color: {{ section.settings.font_color }};
+   }
   }
 
-  #{{ swiperId }} .announcement-bar__message {
+  @media screen and (min-width:900px) {
+    #{{ swiperId }} .announcement-bar__message {
     font-size: {{ section.settings.font_size }}px;
     color: {{ section.settings.font_color }};
+   }
+  }
+  
+  #{{ swiperId }} .announcement-bar__message:hover {
+    color: #fff;
+    font-weight:600;
   }
 </style>
 
-<div class="swiper-container" id="{{ swiperId }}" style="{{ swiper_style }}">
+<div class="swiper-container swiper-container-vertical" id="{{ swiperId }}" 
+  style="{{ swiper_style }};background-repeat: no-repeat;background-size: 100% 100%;position:relative;top:0; z-index:99;width:100%"
+  ">
   
   <div class="swiper-wrapper">
     {%- for block in section.blocks -%}
@@ -34,7 +60,7 @@
         {%- if block.settings.link != blank -%}
           <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
         {%- endif -%}
-            <p class="announcement-bar__message h5">
+            <p class="announcement-bar__message font-fa";>
               {{ block.settings.text }}
             </p>
         {%- if block.settings.link != blank -%}
@@ -55,7 +81,6 @@
       height: {{ section.settings.height }}
   })
 </script>
-
 {% schema %}
 {
   "name": "公告栏plus",
@@ -86,7 +111,7 @@
       "id": "font_size",
       "label": "公告字体大小",
       "min": 12,
-      "max": 30,
+      "max": 50,
       "step": 1,
       "default": 20,
       "unit": "px"
@@ -95,7 +120,7 @@
       "type": "color",
       "id": "font_color",
       "label": "公告字体颜色",
-      "default": "#000"
+      "default": "#fff"
     },
     {
       "type": "checkbox",
@@ -166,3 +191,9 @@
   ]
 }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
