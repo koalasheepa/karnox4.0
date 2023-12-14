@@ -87,6 +87,64 @@
     "checkout_banner_background_color": "#ffffff",
     "checkout_call_to_action_color": "#a26b25",
     "checkout_use_header_image": false,
+    "sections": {
+      "announcement-plus": {
+        "type": "announcement-plus",
+        "blocks": {
+          "48436005-d3bc-4a96-9b55-8bc2e692a50b": {
+            "type": "announcement",
+            "settings": {
+              "text": "Black Friday Deals Up to $200 Off",
+              "link": "",
+              "countdown_on": false,
+              "countdown_end": ""
+            }
+          },
+          "510d9215-cecc-4bbb-b737-5bd48e3b1bea": {
+            "type": "announcement",
+            "settings": {
+              "text": "Inventory Has Been Updated, The Styles You Need are In Stock.",
+              "link": "",
+              "countdown_on": false,
+              "countdown_end": ""
+            }
+          },
+          "6e80c741-b5b0-4734-8b73-03588859336f": {
+            "type": "announcement",
+            "settings": {
+              "text": "Ten-year Warranty on Seat and Backrest, 3-year Warranty on Parts",
+              "link": "",
+              "countdown_on": false,
+              "countdown_end": ""
+            }
+          },
+          "3e21511b-8b4e-48a7-9e13-0dc4d8f96b2a": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Shipping to The USA, Leaving The Warehouse Within 48 Hours",
+              "link": "",
+              "countdown_on": false,
+              "countdown_end": ""
+            }
+          }
+        },
+        "block_order": [
+          "48436005-d3bc-4a96-9b55-8bc2e692a50b",
+          "510d9215-cecc-4bbb-b737-5bd48e3b1bea",
+          "6e80c741-b5b0-4734-8b73-03588859336f",
+          "3e21511b-8b4e-48a7-9e13-0dc4d8f96b2a"
+        ],
+        "settings": {
+          "background_color": "",
+          "height": 70,
+          "font_size": 23,
+          "font_color": "#000",
+          "loop": true,
+          "autoplay": 1,
+          "direction": "vertical"
+        }
+      }
+    },
     "content_for_index": [
 
     ],
