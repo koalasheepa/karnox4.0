@@ -290,6 +290,17 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "8e461db6-2d18-4ba1-8511-28f050d14f38": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HOT SALES",
+        "home_featured_products": "hot-sales",
+        "per_row": 4,
+        "rows": 2,
+        "view_all": false,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -297,6 +308,7 @@
     "3e26a146-0bcb-4baa-8428-a7de665547f6",
     "0ce81d3d-9370-40dd-b127-37e0b8ccd8e3",
     "a87f9067-284b-46f9-9d1b-4170000f6bfc",
-    "a4a7997f-61ba-41c0-b07e-c7cb4b764d02"
+    "a4a7997f-61ba-41c0-b07e-c7cb4b764d02",
+    "8e461db6-2d18-4ba1-8511-28f050d14f38"
   ]
 }
