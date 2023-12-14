@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "6cac0b27-cbff-4ac4-aab8-b81f6e4f9951": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21590632366385__6cac0b27-cbff-4ac4-aab8-b81f6e4f9951-image-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/1a23d9c6e9bd9c9dfb0446c19f5f88c4_00d2fb78-512e-43b4-a61f-801503ebe37d.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1_0120.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21590632366385__6cac0b27-cbff-4ac4-aab8-b81f6e4f9951-image-1"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "99c39f45-2267-4320-ae69-216c3747d3ab": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_7acb905c-e83e-4c45-8549-beddb1983a5c.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Scientific Design to transfer pressure",
+        "text": "<p>Ergonomic chair designs are based on human body structure and physiological characteristics, utilizing reasonable structures and materials to transfer pressure and reduce burden on the body, avoiding unnecessary pain and injury. Sitting for long time can cause great pressure and impact on the body, as it can lead to muscle discomfort and spinal compression, putting a lot of pressure on bodily tissues. Therefore, changing sitting positions can help disperse pressure on the body and avoid problems such as back, waist, and hip pain caused by prolonged sitting.<\/p><p>Karnox's design adapts to changes in pressure transfer when users change posture, reducing impact and vibration on the body, further preventing damage to the spine and muscles, thus protecting physical health.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6cac0b27-cbff-4ac4-aab8-b81f6e4f9951",
+    "99c39f45-2267-4320-ae69-216c3747d3ab"
+  ]
+}
