@@ -297,7 +297,7 @@
         "title": "HOT SALES",
         "home_featured_products": "hot-sales",
         "per_row": 4,
-        "rows": 2,
+        "rows": 1,
         "view_all": false,
         "divider": false
       }
