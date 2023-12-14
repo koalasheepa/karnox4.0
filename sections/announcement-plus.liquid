@@ -1,0 +1,168 @@
+{%- assign swiperId = "swiper-container-" | append: section.id -%}
+
+{%- capture swiper_style -%}
+{%- if section.settings.background_image != blank -%}
+  background-image: url({{ section.settings.background_image | img_url }});
+{%- endif -%}
+{%- if section.settings.background_color != blank -%}
+  background-color: {{ section.settings.background_color }};
+{%- endif -%}
+{%- if section.settings.height != blank -%}
+  height: {{ section.settings.height }}px;
+{%- endif -%}
+{%- endcapture -%}
+<style>
+  .announcement-bar.swiper-slide {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 0;
+  }
+
+  #{{ swiperId }} .announcement-bar__message {
+    font-size: {{ section.settings.font_size }}px;
+    color: {{ section.settings.font_color }};
+  }
+</style>
+
+<div class="swiper-container" id="{{ swiperId }}" style="{{ swiper_style }}">
+  
+  <div class="swiper-wrapper">
+    {%- for block in section.blocks -%}
+    <div class="announcement-bar swiper-slide" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      {%- if block.settings.text != blank -%}
+        {%- if block.settings.link != blank -%}
+          <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
+        {%- endif -%}
+            <p class="announcement-bar__message h5">
+              {{ block.settings.text }}
+            </p>
+        {%- if block.settings.link != blank -%}
+          </a>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  var mySwiper = new Swiper('#{{ swiperId }}', {
+      direction: "{{  section.settings.direction }}", // 水平切换选项
+      loop: {{  section.settings.loop }}, // 循环模式选项
+      autoplayDisableOnInteraction : false,
+      autoplay: {{ section.settings.autoplay }} * 1000,
+      height: {{ section.settings.height }}
+  })
+</script>
+
+{% schema %}
+{
+  "name": "公告栏plus",
+  "max_blocks": 12,
+  "settings": [
+    {
+     "type": "image_picker",
+     "id": "background_image",
+     "label": "背景图"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "背景色"
+    },
+    {
+      "type": "range",
+      "id": "height",
+      "label": "公告栏高度",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "公告字体大小",
+      "min": 12,
+      "max": 30,
+      "step": 1,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "公告字体颜色",
+      "default": "#000"
+    },
+    {
+      "type": "checkbox",
+      "id": "loop",
+      "label": "是否轮播",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay",
+      "label": "轮播间隔",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 1,
+      "unit": "秒"
+    },
+    {
+      "type": "select",
+      "id": "direction",
+      "label": "轮播方向",
+      "options": [
+        {
+          "label": "横向",
+          "value": "horizontal"
+        },
+        {
+          "label": "纵向",
+          "value": "vertical"
+        }
+      ],
+     "default": "vertical"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "公告",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "宣传文案"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "宣传链接"
+        },
+        {
+          "type": "checkbox",
+          "id": "countdown_on",
+          "label": "开启倒计时"
+        },
+        {
+          "type": "text",
+          "id": "countdown_end",
+          "label": "截止时间"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "公告栏plus"
+    }
+  ]
+}
+{% endschema %}
