@@ -138,9 +138,9 @@
           "background_color": "",
           "height": 70,
           "font_size": 23,
-          "font_color": "#000",
+          "font_color": "#ffffff",
           "loop": true,
-          "autoplay": 1,
+          "autoplay": 3,
           "direction": "vertical"
         }
       }
