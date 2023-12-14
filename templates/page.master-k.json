@@ -28,6 +28,7 @@
       "block_order": [
         "template--21590632366385__6cac0b27-cbff-4ac4-aab8-b81f6e4f9951-image-1"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
@@ -40,6 +41,7 @@
     },
     "99c39f45-2267-4320-ae69-216c3747d3ab": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/2_7acb905c-e83e-4c45-8549-beddb1983a5c.png",
         "image_mask": "none",
@@ -58,11 +60,47 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "53fd1c97-0ef2-4a6a-adf1-8902048d81c4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Master-k Lab Action Figires",
+        "home_featured_products": "master-k-lab-action-figires",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "6637246a-e420-4966-8cf7-4f2413ee34ef": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "master-k lab living",
+        "home_featured_products": "master-k-lab-living",
+        "per_row": 4,
+        "rows": 2,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "76a4c0bc-58bf-4da0-8d62-f8425643df84": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "master-k lab gaming",
+        "home_featured_products": "master-k-lab-gaming-type",
+        "per_row": 4,
+        "rows": 2,
+        "view_all": false,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "6cac0b27-cbff-4ac4-aab8-b81f6e4f9951",
-    "99c39f45-2267-4320-ae69-216c3747d3ab"
+    "99c39f45-2267-4320-ae69-216c3747d3ab",
+    "53fd1c97-0ef2-4a6a-adf1-8902048d81c4",
+    "6637246a-e420-4966-8cf7-4f2413ee34ef",
+    "76a4c0bc-58bf-4da0-8d62-f8425643df84"
   ]
 }
