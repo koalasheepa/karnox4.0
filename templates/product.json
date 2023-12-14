@@ -15,7 +15,7 @@
             "variant_labels": true,
             "picker_type": "button",
             "product_dynamic_variants_enable": true,
-            "color_swatches": true
+            "color_swatches": false
           }
         },
         "88b0ba6d-7297-418f-9fbe-48a21d2c03d7": {
