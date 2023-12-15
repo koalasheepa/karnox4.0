@@ -20,12 +20,12 @@
     {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script> {% endcomment %}
 
     {% comment %} 正确引入 {% endcomment %}
-    <script src="{{ 'swiper.jquery.min.js' | asset_url }}" async></script>
+    {% comment %} <script src="{{ 'swiper.jquery.min.js' | asset_url }}" async></script> {% endcomment %}
     {% comment %} <script src="{{ 'jquery3.7.0.js' | asset_url }}" async></script> {% endcomment %}
-    <script src="{{ 'swiper.jquery.min3.4.2.js' | asset_url }}" async></script>
+    {% comment %} <script src="{{ 'swiper.jquery.min3.4.2.js' | asset_url }}" async></script> {% endcomment %}
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js"></script>
+    <script src="//cdn.shopifycdn.net/s/files/1/0567/0309/0748/t/2/assets/jquery-2.1.1.min.js?v=10474865187755489031649831485"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
 
   {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
