@@ -24,11 +24,11 @@
     <script src="{{ 'jquery-2.1.1.min.js' | asset_url }}" async></script> {% endcomment %}
   
 
-    <script src="//cdn.shopifycdn.net/s/files/1/0567/0309/0748/t/2/assets/jquery-2.1.1.min.js?v=10474865187755489031649831485"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="https://cdn.shopify.com/s/files/1/0716/8842/1681/files/jquery-2.1.1.min.js?v=1702604431" defer></script>
+    <script src="https://cdn.shopify.com/s/files/1/0716/8842/1681/files/swiper.jquery.min.js?v=1702604497" defer></script>
 
   {%- if settings.favicon != blank -%}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+    <link rel="shortcut icon" href="{{ settings.favicon | image_url: '32x32' }}" type="image/png" />
   {%- endif -%}
 
   {%- render 'seo-title' -%}
@@ -100,7 +100,7 @@
   {%- endif -%}
 
   {% if request.design_mode %}
-    <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
+    <script src="https://cdn.shopify.com/s/files/1/0716/8842/1681/files/design-mode.js?v=1702604616" defer="defer"></script>
   {% endif %}
 </head>
 
