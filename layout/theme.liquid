@@ -28,7 +28,7 @@
     <script src="https://cdn.shopify.com/s/files/1/0716/8842/1681/files/swiper.jquery.min.js?v=1702604497" defer></script>
 
   {%- if settings.favicon != blank -%}
-    <link rel="shortcut icon" href="{{ settings.favicon | image_url: '32x32' }}" type="image/png" />
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {%- endif -%}
 
   {%- render 'seo-title' -%}
