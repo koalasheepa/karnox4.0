@@ -109,6 +109,7 @@
       "blocks": {
         "template--21590632038705__0ce81d3d-9370-40dd-b127-37e0b8ccd8e3-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 80,
