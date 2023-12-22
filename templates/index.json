@@ -302,6 +302,62 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "504a5ae0-aa21-4f4c-aa5d-f69d960b7487": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-separator-1": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-description-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-price-1",
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-separator-1",
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-variant_picker-1",
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-buy_buttons-1",
+        "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-description-1"
+      ],
+      "settings": {
+        "featured_product": "karnox-gaming-chairs-gladiator-cybot-edition-yellow",
+        "divider": false,
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
     }
   },
   "order": [
@@ -310,6 +366,7 @@
     "0ce81d3d-9370-40dd-b127-37e0b8ccd8e3",
     "8e461db6-2d18-4ba1-8511-28f050d14f38",
     "a87f9067-284b-46f9-9d1b-4170000f6bfc",
-    "a4a7997f-61ba-41c0-b07e-c7cb4b764d02"
+    "a4a7997f-61ba-41c0-b07e-c7cb4b764d02",
+    "504a5ae0-aa21-4f4c-aa5d-f69d960b7487"
   ]
 }
