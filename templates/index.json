@@ -347,6 +347,7 @@
         "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-buy_buttons-1",
         "template--21590632038705__504a5ae0-aa21-4f4c-aa5d-f69d960b7487-description-1"
       ],
+      "disabled": true,
       "settings": {
         "featured_product": "karnox-gaming-chairs-gladiator-cybot-edition-yellow",
         "divider": false,
@@ -358,6 +359,34 @@
         "enable_video_looping": true,
         "product_video_style": "muted"
       }
+    },
+    "d3519e97-38f6-4066-90ff-7043b53f4d13": {
+      "type": "hotspots",
+      "blocks": {
+        "template--21590632038705__d3519e97-38f6-4066-90ff-7043b53f4d13-product-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "karnox-gaming-chairs-hero-genie-edition-blue",
+            "vertical": 49,
+            "horizontal": 64
+          }
+        }
+      },
+      "block_order": [
+        "template--21590632038705__d3519e97-38f6-4066-90ff-7043b53f4d13-product-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop the look",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/1_1cd88f66-e345-4056-8791-bc9306641255.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -367,6 +396,7 @@
     "8e461db6-2d18-4ba1-8511-28f050d14f38",
     "a87f9067-284b-46f9-9d1b-4170000f6bfc",
     "a4a7997f-61ba-41c0-b07e-c7cb4b764d02",
-    "504a5ae0-aa21-4f4c-aa5d-f69d960b7487"
+    "504a5ae0-aa21-4f4c-aa5d-f69d960b7487",
+    "d3519e97-38f6-4066-90ff-7043b53f4d13"
   ]
 }
