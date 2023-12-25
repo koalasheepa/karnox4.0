@@ -49,6 +49,7 @@
     "vendor_enable": false,
     "product_save_type": "dollar",
     "product_grid_image_size": "natural",
+    "product_grid_image_fill": true,
     "product_hover_image": true,
     "quick_shop_enable": false,
     "enable_swatches": true,
