@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ 'product-img.css' | asset_url }}">
+{% comment %} <link rel="stylesheet" href="{{ 'product-img.css' | asset_url }}"> {% endcomment %}
 {%- liquid
   assign isModal = false
   if template == 'product.modal'
@@ -21,7 +21,7 @@
   video_style: section.settings.product_video_style,
   context: 'main-product',
 -%}
-<script src="{{ 'product-img.js' | asset_url }}" defer></script>
+{% comment %} <script src="{{ 'product-img.js' | asset_url }}" defer></script> {% endcomment %}
 {% schema %}
 {
   "name": "t:sections.main-product.name",
