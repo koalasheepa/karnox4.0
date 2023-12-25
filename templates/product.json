@@ -10,12 +10,12 @@
         },
         "separator": {
           "type": "separator",
-          "disabled": true,
           "settings": {
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
