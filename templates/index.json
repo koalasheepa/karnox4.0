@@ -153,17 +153,6 @@
         "lazyload_images": true
       }
     },
-    "8e461db6-2d18-4ba1-8511-28f050d14f38": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "HOT SALES",
-        "home_featured_products": "hot-sales",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "a87f9067-284b-46f9-9d1b-4170000f6bfc": {
       "type": "slideshow",
       "blocks": {
@@ -247,6 +236,17 @@
         "autoplay": false,
         "autoplay_speed": 5,
         "lazyload_images": true
+      }
+    },
+    "8e461db6-2d18-4ba1-8511-28f050d14f38": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HOT SALES",
+        "home_featured_products": "hot-sales",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
       }
     },
     "a4a7997f-61ba-41c0-b07e-c7cb4b764d02": {
@@ -393,8 +393,8 @@
     "hero-video",
     "3e26a146-0bcb-4baa-8428-a7de665547f6",
     "0ce81d3d-9370-40dd-b127-37e0b8ccd8e3",
-    "8e461db6-2d18-4ba1-8511-28f050d14f38",
     "a87f9067-284b-46f9-9d1b-4170000f6bfc",
+    "8e461db6-2d18-4ba1-8511-28f050d14f38",
     "a4a7997f-61ba-41c0-b07e-c7cb4b764d02",
     "504a5ae0-aa21-4f4c-aa5d-f69d960b7487",
     "d3519e97-38f6-4066-90ff-7043b53f4d13"
