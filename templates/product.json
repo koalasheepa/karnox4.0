@@ -83,10 +83,7 @@
         "share"
       ],
       "custom_css": [
-        ".pacKaged {display: none;}",
-        ".item-gifts {display: none !important;}",
-        ".pro_block.pro_block_first {display: none !important;}",
-        ".pro_block.pro_block_sec {display: none !important;}"
+
       ],
       "settings": {
         "sku_enable": false,
