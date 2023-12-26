@@ -243,7 +243,7 @@
       "settings": {
         "title": "HOT SALES",
         "home_featured_products": "hot-sales",
-        "per_row": 4,
+        "per_row": 5,
         "rows": 1,
         "view_all": true,
         "divider": false
